@@ -1,4 +1,6 @@
 # Configurations
+# Run 'bundle exec jekyll serve' after any updates.
+
 title:            tjufc's blog
 longtitle:        tjufc's blog
 author:           tjufc
@@ -11,8 +13,10 @@ gitbook_version:  3.2.3
 
 domain:           'tjufc.github.io'
 url:              'https://tjufc.github.io'
-# baseurl:          '/jekyll-gitbook'
 rss:              RSS
+## This config should not be kept when building your own Github Page,
+## otherwise the sources will not be found.
+# baseurl:        '/jekyll-gitbook'
 
 toc:
   enabled: true
